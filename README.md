@@ -1,2 +1,2 @@
 # movie_review_app
-movie app repo
+movie review app repo
