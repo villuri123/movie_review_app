@@ -20,8 +20,8 @@ db.sequelize.sync().then(() => {
 
 // routes
 require('./app/routes/auth.routes')(app);
-require('./app/routes/movie.routes')(app);
-require('./app/routes/movieReview.routes')(app);
+// require('./app/routes/movie.routes')(app);
+// require('./app/routes/movieReview.routes')(app);
 
 const PORT = process.env.PORT || 8080;
 app.listen(PORT, () => {
